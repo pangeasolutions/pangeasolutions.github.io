@@ -73,7 +73,8 @@ figure figcaption {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: #ff8b00;
+  /* background: linear-gradient(-45deg, #3db3c5, #274685);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -326,7 +327,9 @@ figure figcaption {
 /* CTA Section */
 
 .cta-section {
-  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+
+  background: linear-gradient(to right, rgba(148, 118, 0, 0.8) 0%, rgba(255, 206, 0, 0.8) 100%);
+  /*background: linear-gradient(to right, #274685 0%, #3db3c5 100%);*/
   color: #fff;
 }
 
@@ -664,9 +667,10 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  /*background: linear-gradient(to right, rgba(81, 97, 128, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);*/
+  background: linear-gradient(to right, rgba(148, 118, 0, 0.8) 0%, rgba(255, 206, 0, 0.8) 100%), url(../img/hero-bg2.jpg);
   position: relative;
-}
+ }
 
 .hero-section .wave {
   width: 100%;
