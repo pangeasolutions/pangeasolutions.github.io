@@ -5,6 +5,16 @@
   Author URL: https://bootstrapmade.com/
 */
 
+.textdone {
+  background-color: green; /* Changing background color */
+  color: white;
+  border-radius: 5px; /* Making border radius */
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 5px; /* Making space around letters */
+  font-size: 10px; /* Changing font size */
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
