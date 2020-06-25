@@ -5,14 +5,37 @@
   Author URL: https://bootstrapmade.com/
 */
 
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.checked_li:before {
+  content: "✓";
+  color:green;
+  padding-right: 5px;
+  font-weight: 900;
+}
+.unchecked_li:before {
+  content: " ";
+  padding-right: 17px;
+}
+
 .textdone {
-  background-color: green; /* Changing background color */
-  color: white;
-  border-radius: 5px; /* Making border radius */
+  /* background-color: green;  Changing background color */
+  color: green;
+  /* border-radius: 5px;  Making border radius */
   width: auto; /* Making auto-sizable width */
   height: auto; /* Making auto-sizable height */
   padding: 5px; /* Making space around letters */
-  font-size: 10px; /* Changing font size */
+  font-size: 12px; /* Changing font size */
 }
 
 /*--------------------------------------------------------------
