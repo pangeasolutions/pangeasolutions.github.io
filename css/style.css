@@ -24,8 +24,10 @@ li {
   font-weight: 900;
 }
 .unchecked_li:before {
-  content: " ";
-  padding-right: 17px;
+  content: "-";
+  color:rgb(187, 187, 187);
+  padding-right: 10px;
+  font-weight: 900;
 }
 
 .textdone {
